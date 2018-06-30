@@ -1,0 +1,24 @@
+{
+  "name": "@dbrowser/vfs-wrapper",
+  "version": "0.1.1",
+  "description": "Wrapper for dBrowser's Virtual File System That Scopes Access To A Specific Folder.",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Bench Computer, Inc. <legal@benchx.io>"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "recursive-watch": "^1.1.1"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2",
+    "tape": "^4.6.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
